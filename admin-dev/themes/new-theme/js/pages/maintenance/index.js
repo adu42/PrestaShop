@@ -1,5 +1,5 @@
 /**
- * 2007-2019 PrestaShop and Contributors
+ * 2007-2019 PrestaShop SA and Contributors
  *
  * NOTICE OF LICENSE
  *
@@ -23,7 +23,7 @@
  * International Registered Trademark & Property of PrestaShop SA
  */
 
-import TinyMCEEditor from '../../components/tinymce-editor';
+import TinyMCEEditor from '@components/tinymce-editor';
 
 const $ = window.$;
 

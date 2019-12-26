@@ -1,5 +1,5 @@
 <!--**
- * 2007-2019 PrestaShop and Contributors
+ * 2007-2019 PrestaShop SA and Contributors
  *
  * NOTICE OF LICENSE
  *
@@ -111,10 +111,10 @@
 
 <script>
   import FilterComponent from './filters/filter-component';
-  import PSSelect from 'app/widgets/ps-select';
-  import PSButton from 'app/widgets/ps-button';
-  import PSDatePicker from 'app/widgets/ps-datepicker';
-  import PSRadio from 'app/widgets/ps-radio';
+  import PSSelect from '@app/widgets/ps-select';
+  import PSButton from '@app/widgets/ps-button';
+  import PSDatePicker from '@app/widgets/ps-datepicker';
+  import PSRadio from '@app/widgets/ps-radio';
   import _ from 'lodash';
 
   export default {

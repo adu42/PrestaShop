@@ -1,5 +1,5 @@
 <!--**
- * 2007-2019 PrestaShop and Contributors
+ * 2007-2019 PrestaShop SA and Contributors
  *
  * NOTICE OF LICENSE
  *
@@ -42,7 +42,7 @@
   import StockHeader from './header/stock-header';
   import Search from './header/search';
   import LowFilter from './header/filters/low-filter';
-  import PSPagination from 'app/widgets/ps-pagination';
+  import PSPagination from '@app/widgets/ps-pagination';
 
   export default {
     name: 'app',

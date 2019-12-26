@@ -1,5 +1,5 @@
 <!--**
- * 2007-2019 PrestaShop and Contributors
+ * 2007-2019 PrestaShop SA and Contributors
  *
  * NOTICE OF LICENSE
  *
@@ -48,7 +48,8 @@
 </template>
 
 <script>
-import PSCheckbox from 'app/widgets/ps-checkbox';
+import PSCheckbox from '@app/widgets/ps-checkbox';
+
 export default {
   props: {
     filters: {},

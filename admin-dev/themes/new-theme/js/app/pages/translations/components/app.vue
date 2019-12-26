@@ -1,5 +1,5 @@
 <!--**
- * 2007-2019 PrestaShop and Contributors
+ * 2007-2019 PrestaShop SA and Contributors
  *
  * NOTICE OF LICENSE
  *
@@ -44,13 +44,11 @@
 </template>
 
 <script>
-  import TranslationsHeader from './header/translations-header';
-  import Search from './header/search';
-  import Sidebar from './sidebar';
-  import Principal from './principal';
-  import PSModal from 'app/widgets/ps-modal';
-  import { EventBus } from 'app/utils/event-bus';
-
+  import TranslationsHeader from '@app/pages/translations/components/header/translations-header';
+  import Search from '@app/pages/translations/components/header/search';
+  import Sidebar from '@app/pages/translations/components/sidebar';
+  import Principal from '@app/pages/translations/components/principal';
+  import PSModal from '@app/widgets/ps-modal';
 
   export default {
     name: 'app',

@@ -1,7 +1,7 @@
 <?php
 
 /**
- * 2007-2019 PrestaShop and Contributors
+ * 2007-2019 PrestaShop SA and Contributors
  *
  * NOTICE OF LICENSE
  *
@@ -202,8 +202,6 @@ class ModuleManagerBuilder
 
         self::$legacyLogger = new LegacyLogger();
         self::$categoriesProvider = new CategoriesProvider(
-            $marketPlaceClient,
-            self::$legacyLogger,
             $prestashopAddonsConfig['prestashop']['addons']['categories'],
             $themeModules
         );

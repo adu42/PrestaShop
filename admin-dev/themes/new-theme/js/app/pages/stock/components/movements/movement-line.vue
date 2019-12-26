@@ -1,5 +1,5 @@
 <!--**
- * 2007-2019 PrestaShop and Contributors
+ * 2007-2019 PrestaShop SA and Contributors
  *
  * NOTICE OF LICENSE
  *
@@ -65,8 +65,8 @@
 </template>
 
 <script>
-  import PSMedia from 'app/widgets/ps-media';
-  import productDesc from 'app/pages/stock/mixins/product-desc';
+  import PSMedia from '@app/widgets/ps-media';
+  import productDesc from '@app/pages/stock/mixins/product-desc';
 
   export default {
     props: ['product'],

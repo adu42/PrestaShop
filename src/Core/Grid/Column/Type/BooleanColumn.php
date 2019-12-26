@@ -1,6 +1,6 @@
 <?php
 /**
- * 2007-2019 PrestaShop and Contributors
+ * 2007-2019 PrestaShop SA and Contributors
  *
  * NOTICE OF LICENSE
  *
@@ -53,9 +53,13 @@ final class BooleanColumn extends AbstractColumn
                 'true_name',
                 'false_name',
             ])
+            ->setDefaults([
+                'clickable' => false,
+            ])
             ->setAllowedTypes('field', 'string')
             ->setAllowedTypes('true_name', 'string')
             ->setAllowedTypes('true_name', 'string')
+            ->setAllowedTypes('clickable', 'bool')
         ;
     }
 }

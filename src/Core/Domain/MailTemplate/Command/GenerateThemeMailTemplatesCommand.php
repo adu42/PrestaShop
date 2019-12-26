@@ -1,6 +1,6 @@
 <?php
 /**
- * 2007-2019 PrestaShop and Contributors
+ * 2007-2019 PrestaShop SA and Contributors
  *
  * NOTICE OF LICENSE
  *
@@ -50,7 +50,7 @@ class GenerateThemeMailTemplatesCommand
 
     /**
      * @param string $themeName
-     * @param string $language
+     * @param string $language locale, for example: 'en'
      * @param bool $overwriteTemplates
      * @param string $coreMailsFolder Output folder for core emails (if left empty the default mails folder will be used)
      * @param string $modulesMailFolder Output folder for modules emails (if left empty the module mails folder will be used)

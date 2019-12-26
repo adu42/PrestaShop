@@ -1,5 +1,5 @@
 /**
- * 2007-2019 PrestaShop and Contributors
+ * 2007-2019 PrestaShop SA and Contributors
  *
  * NOTICE OF LICENSE
  *
@@ -24,7 +24,7 @@
  */
 import Vue from 'vue';
 import VueRouter from 'vue-router';
-import Overview from 'app/pages/translations/components/app';
+import Overview from '@app/pages/translations/components/app';
 
 Vue.use(VueRouter);
 

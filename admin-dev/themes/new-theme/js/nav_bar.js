@@ -1,5 +1,5 @@
 /**
- * 2007-2019 PrestaShop and Contributors
+ * 2007-2019 PrestaShop SA and Contributors
  *
  * NOTICE OF LICENSE
  *
@@ -24,7 +24,7 @@
  */
 
 import PerfectScrollbar from 'perfect-scrollbar';
-import '../node_modules/perfect-scrollbar/css/perfect-scrollbar.css';
+import '@node_modules/perfect-scrollbar/css/perfect-scrollbar.css';
 
 const $ = window.$;
 

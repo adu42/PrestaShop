@@ -1,5 +1,5 @@
 <!--**
- * 2007-2019 PrestaShop and Contributors
+ * 2007-2019 PrestaShop SA and Contributors
  *
  * NOTICE OF LICENSE
  *
@@ -34,8 +34,8 @@
 </template>
 
 <script>
-  import PSButton from 'app/widgets/ps-button';
-  import { EventBus } from 'app/utils/event-bus';
+  import PSButton from '@app/widgets/ps-button';
+  import { EventBus } from '@app/utils/event-bus';
 
   export default {
     name: 'TranslationInput',

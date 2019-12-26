@@ -1,6 +1,6 @@
 <?php
 /**
- * 2007-2019 PrestaShop and Contributors
+ * 2007-2019 PrestaShop SA and Contributors
  *
  * NOTICE OF LICENSE
  *
@@ -30,6 +30,8 @@ use PrestaShop\PrestaShop\Core\Form\FormChoiceProviderInterface;
 
 /**
  * Class TabChoiceProvider provides Tab choices with name values.
+ *
+ * This class is used for choosing Default page when creating employee
  */
 final class TabChoiceProvider implements FormChoiceProviderInterface
 {

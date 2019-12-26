@@ -1,5 +1,5 @@
 <!--**
- * 2007-2019 PrestaShop and Contributors
+ * 2007-2019 PrestaShop SA and Contributors
  *
  * NOTICE OF LICENSE
  *
@@ -52,8 +52,8 @@
 </template>
 
 <script>
-  import PSCheckbox from 'app/widgets/ps-checkbox';
-  import { EventBus } from 'app/utils/event-bus';
+  import PSCheckbox from '@app/widgets/ps-checkbox';
+  import { EventBus } from '@app/utils/event-bus';
 
   export default {
     name: 'PSTreeItem',

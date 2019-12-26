@@ -1,5 +1,5 @@
 <!--**
- * 2007-2019 PrestaShop and Contributors
+ * 2007-2019 PrestaShop SA and Contributors
  *
  * NOTICE OF LICENSE
  *
@@ -76,10 +76,10 @@
 </template>
 
 <script>
-  import PSTags from 'app/widgets/ps-tags';
-  import PSTreeItem from 'app/widgets/ps-tree/ps-tree-item';
-  import PSTree from 'app/widgets/ps-tree/ps-tree';
-  import { EventBus } from 'app/utils/event-bus';
+  import PSTags from '@app/widgets/ps-tags';
+  import PSTreeItem from '@app/widgets/ps-tree/ps-tree-item';
+  import PSTree from '@app/widgets/ps-tree/ps-tree';
+  import { EventBus } from '@app/utils/event-bus';
   import _ from 'lodash';
 
   export default {

@@ -1,6 +1,6 @@
 <?php
 /**
- * 2007-2019 PrestaShop and Contributors
+ * 2007-2019 PrestaShop SA and Contributors
  *
  * NOTICE OF LICENSE
  *
@@ -59,7 +59,7 @@ class ProfileId
      */
     private function setProfileId($profileId)
     {
-        if (!is_numeric($profileId) || 0 >= $profileId) {
+        if (!is_int($profileId) || 0 >= $profileId) {
             throw new ProfileException(
                 sprintf('Invalid Profile id %s supplied', var_export($profileId, true))
             );

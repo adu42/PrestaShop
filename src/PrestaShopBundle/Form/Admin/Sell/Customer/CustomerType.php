@@ -1,6 +1,6 @@
 <?php
 /**
- * 2007-2019 PrestaShop and Contributors
+ * 2007-2019 PrestaShop SA and Contributors
  *
  * NOTICE OF LICENSE
  *
@@ -209,12 +209,6 @@ class CustomerType extends AbstractType
                 ])
                 ->add('siret_code', TextType::class, [
                     'required' => false,
-                    'constraints' => [
-                        new Type([
-                            'type' => 'numeric',
-                            'message' => $this->trans('This field is invalid', [], 'Admin.Notifications.Error'),
-                        ]),
-                    ],
                 ])
                 ->add('ape_code', TextType::class, [
                     'required' => false,

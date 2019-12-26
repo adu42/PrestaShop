@@ -1,5 +1,5 @@
 <!--**
- * 2007-2019 PrestaShop and Contributors
+ * 2007-2019 PrestaShop SA and Contributors
  *
  * NOTICE OF LICENSE
  *
@@ -51,7 +51,7 @@
 </template>
 
 <script>
-  import PSNumber from 'app/widgets/ps-number';
+  import PSNumber from '@app/widgets/ps-number';
 
   const $ = global.$;
 

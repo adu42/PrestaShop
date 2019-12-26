@@ -1,5 +1,5 @@
 /**
- * 2007-2019 PrestaShop and Contributors
+ * 2007-2019 PrestaShop SA and Contributors
  *
  * NOTICE OF LICENSE
  *
@@ -23,10 +23,10 @@
  * International Registered Trademark & Property of PrestaShop SA
  */
 
-import TranslatableInput from '../../components/translatable-input';
-import StockManagementOptionHandler from './stock-management-option-handler';
-import CatalogModeOptionHandler from './catalog-mode-option-handler';
-import * as pageMap from './product-preferences-page-map';
+import TranslatableInput from '@components/translatable-input';
+import StockManagementOptionHandler from '@pages/product-preferences/stock-management-option-handler';
+import CatalogModeOptionHandler from '@pages/product-preferences/catalog-mode-option-handler';
+import * as pageMap from '@pages/product-preferences/product-preferences-page-map';
 
 const $ = window.$;
 
